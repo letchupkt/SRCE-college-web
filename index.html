@@ -1,0 +1,705 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+  <meta name="description" content="Sri Ramakrishna Engineering College - Excellence in Engineering Education since 1957">
+  <title>Sri Ramakrishna Engineering College</title>
+  
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+  <link href="./css/style.css" rel="stylesheet">
+  
+  <!-- Add favicon -->
+  <link rel="icon" type="image/png" href="./images/logo-engg.png">
+
+  <!-- Add this in the head section -->
+  <meta name="theme-color" content="#1e3799">
+
+  <!-- Add this in the head section -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+
+  <!-- Add these font imports in the head section -->
+  <link href="https://fonts.googleapis.com/css2?family=Crimson+Pro:wght@600;700&family=Playfair+Display:wght@600;700&display=swap" rel="stylesheet">
+
+  <!-- Add this in the head section -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.11.3/css/lightbox.min.css">
+</head>
+<body>
+  <!-- Add loading state -->
+
+  <section class="header-wrapper">
+    <header class="header">
+      <div class="header-top orange-gradient">
+        <div class="container">
+          <div class="contact-info">
+            <a href="tel:+919585544688"><i class="fas fa-phone"></i> +91 95855 44688</a>
+            <a href="mailto:sriramakrishnaengg@gmail.com"><i class="fas fa-envelope"></i> sriramakrishnaengg@gmail.com</a>
+          </div>
+          <div class="social-links">
+            <a href="https://www.facebook.com/share/18b588nQmD/"><i class="fab fa-facebook"></i></a>
+            <a href=""><i class="fab fa-linkedin"></i></a>
+            <a href="https://www.instagram.com/sri_ramakrishna_engg_pblr/"><i class="fab fa-instagram"></i></a>
+          </div>
+        </div>
+      </div>
+      
+      <div class="header-main">
+        <div class="container">
+          <div class="logo-section">
+            <div class="logo-content">
+              <a href="index.html">
+                <img src="images/logo-engg.png" alt="SREC Logo">
+              </a>
+              <div class="college-name orange-text">
+                <h1>Sri Ramakrishna</h1>
+                <h2>College of Engineering</h2>
+                <p class="affiliation">
+                  (Approved by AICTE, New Delhi and Affiliated to Anna University, Chennai.)
+                </p>
+                <p class="address">Sri Saradha Nagar, Perambalur - 621 113.</p>
+              </div>
+            </div>
+            <div class="college-info">
+              <div class="info-item">
+                <div class="info-icon">
+                  <i class="fas fa-phone"></i>
+                </div>
+                <span>+91 95855 44688</span>
+              </div>
+              <div class="info-item">
+                <i class="fas fa-envelope"></i>
+                <span>sriramakrishnaengg@gmail.com</span>
+              </div>
+              <div class="info-item">
+                <i class="fas fa-clock"></i>
+                <span id="date_time"></span>
+              </div>
+              <div class="tnea-code">
+                <span>TNEA Code</span>
+                <strong>3454</strong>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="header-nav">
+        <div class="container">
+          <nav class="nav-menu">
+            <ul>
+              <li><a href="#home" class="nav-link">Home</a></li>
+              <li><a href="#departments" class="nav-link">Departments</a></li>
+              <li><a href="./research.html" class="nav-link" onclick="window.location.href='./research.html'; return false;">Research</a></li>
+              <li><a href="#placements" class="nav-link">Placements</a></li>
+              <li><a href="#about" class="nav-link">About us</a></li>
+              <li><a href="#contact-section" class="nav-link">Contact</a></li>
+            </ul>
+          </nav>
+          <div class="mobile-menu-btn">
+            <span></span>
+            <span></span>
+            <span></span>
+          </div>
+        </div>
+      </div>
+    </header>
+  </section>
+
+  <!-- Slideshow section follows immediately after -->
+  <section class="slideshow" id="home">
+    <div class="slide-container">
+      <div class="slide active">
+        <img src="https://www.sriramakrishna.ac.in/images/slider/s1.jpg" alt="College Campus">
+        <div class="slide-content">
+          <h2>Welcome to SREC</h2>
+          <p>Engineering Excellence Since 1990</p>
+        </div>
+      </div>
+      
+      <div class="slide">
+        <img src="https://www.sriramakrishna.ac.in/images/slider/s2.jpg" alt="Infrastructure">
+        <div class="slide-content">
+          <h2>State-of-the-art Infrastructure</h2>
+          <p>Modern Facilities for Modern Education</p>
+        </div>
+      </div>
+      
+      <div class="slide">
+        <img src="https://www.sriramakrishna.ac.in/images/slider/s3.jpg" alt="Laboratory">
+        <div class="slide-content">
+          <h2>Advanced Laboratories</h2>
+          <p>Hands-on Learning Experience</p>
+        </div>
+      </div>
+
+      <div class="slide">
+        <img src="images/library.jpg" alt="Library">
+        <div class="slide-content">
+          <h2>Modern Library</h2>
+          <p>Access to World-class Resources</p>
+        </div>
+      </div>
+
+      <div class="slide">
+        <img src="images/tech-2.jpg" alt="Classrooms">
+        <div class="slide-content">
+          <h2>Smart Classrooms</h2>
+          <p>Interactive Learning Environment</p>
+        </div>
+      </div>
+
+      <div class="slide">
+        <img src="images/drone2.jpg" alt="Campus Life">
+        <div class="slide-content">
+          <h2>Vibrant Campus Life</h2>
+          <p>Nurturing Well-rounded Development</p>
+        </div>
+      </div>
+
+      <div class="slide">
+        <img src="images/s23-1.jpg" alt="Placements">
+        <div class="slide-content">
+          <h2>Excellent Placements</h2>
+          <p>Building Successful Careers</p>
+        </div>
+      </div>
+
+      <div class="slide">
+        <img src="images/s23-2.jpg" alt="Research">
+        <div class="slide-content">
+          <h2>Research Excellence</h2>
+          <p>Innovating for Tomorrow</p>
+        </div>
+      </div>
+    </div>
+    <button class="slide-btn prev"><i class="fas fa-chevron-left"></i></button>
+    <button class="slide-btn next"><i class="fas fa-chevron-right"></i></button>
+    <div class="slide-dots"></div>
+  </section>
+
+  <div class="mobile-overlay"></div>
+
+  <main>
+    <section class="hero">
+      <div class="hero-content">
+        <h1 class="animate__animated animate__fadeInDown">
+          Sri Ramakrishna Engineering College
+        </h1>
+        <p class="animate__animated animate__fadeInUp">
+          Shaping Tomorrow's Engineers Today
+        </p>
+        <div class="hero-message animate__animated animate__fadeInUp">
+          <h4>Your bright future starts here. We will fast forward you to success. We are a family of learners.<br>
+            <span class="highlight">CHOOSE BEST, CHOOSE US.</span>
+          </h4>
+        </div>
+        <div class="admission-buttons animate__animated animate__fadeInUp">
+          <a href="admission.html" class="btn admission-btn">
+            For First Year Admission 2024-25
+          </a>
+          <a href="lateral-admission.html" class="btn admission-btn">
+            For Lateral Entry Admission 2024-25
+          </a>
+        </div>
+      </div>
+    </section>
+    
+    <section class="about-section" id="about">
+      <div class="container mt-30 mb-30 pt-30 pb-30">
+        <div class="row">
+          <!-- About Content - Left Column -->
+          <div class="col-md-8">
+            <div class="about-content">
+              <h2 class="section-title">About SRCE</h2>
+              <div class="about-text">
+                <p class="lead">
+                  Sri Ramakrishna College of Engineering (SRCE) is a premier educational institution established in 2009 under Sri Swamy Vivekananda Educational Trust. Located in Perambalur, Tamil Nadu, SRCE has emerged as a center of excellence in engineering education.
+                </p>
+                
+                <div class="about-features">
+                  <div class="feature-item">
+                    <i class="fas fa-graduation-cap"></i>
+                    <h4>Academic Excellence</h4>
+                    <p>AICTE approved programs with experienced faculty and modern teaching methodologies.</p>
+                  </div>
+                  
+                  <div class="feature-item">
+                    <i class="fas fa-flask"></i>
+                    <h4>State-of-the-art Infrastructure</h4>
+                    <p>Well-equipped laboratories, digital library, and modern amenities for hands-on learning.</p>
+                  </div>
+                  
+                  <div class="feature-item">
+                    <i class="fas fa-industry"></i>
+                    <h4>Industry Connect</h4>
+                    <p>Strong industry partnerships ensuring excellent placement opportunities for students.</p>
+                  </div>
+                </div>
+
+                <blockquote class="vision-quote">
+                  <h4><i class="fas fa-bullseye"></i> Our Vision</h4>
+                  <p>"To be a premier institution offering quality technical education and creating innovative engineers with social responsibility."</p>
+                </blockquote>
+
+                <blockquote class="mission-quote">
+                  <h4><i class="fas fa-flag"></i> Our Mission</h4>
+                  <p>"To educate students with technical knowledge, professional skills, and ethical values, preparing them to be innovative leaders in the global society."</p>
+                </blockquote>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+	
+    <section class="chairman-message">
+      <div class="container">
+        <h2 class="text-uppercase title">Chairman's Message</h2>
+        <div class="chairman-content">
+          <div class="chairman-image">
+            <img src="images/chm.png" alt="Chairman" class="chairman-photo">
+          </div>
+          <div class="chairman-text">
+            <p class="lead">
+              A small middle school, whose foundation was laid in the year 1990 has grown into a Group of Institutions. 
+              The founder of the college, Dr.M.Sivasubramaniam, started Sri Swami Vivekananda Educational Trust in the year 1990.
+            </p>
+            <a href="trustees-profile.html" class="read-more-btn">Read More</a>
+          </div>
+        </div>
+      </div>
+    </section>
+	
+    <section id="departments" class="departments-section">
+      <div class="container">
+        <h2 class="section-title">Academics</h2>
+        <div class="academics-grid">
+          <!-- Ai&Ds  -->
+          <div class="academic-item">
+            <div class="campaign">
+              <div class="thumb">
+                <img src="images/aids-lab.jpg" alt="AI&DS ">
+                <div class="campaign-overlay"></div>
+              </div>
+              <div class="campaign-details p-20">
+                <h3 class="mt-0 mb-10">
+                  <a href="academics/aids.html">B.Tech Artificial Intelligence & Data Science</a>
+                </h3>
+                <p class="mb-0"> The Department of Artificial Intelligence & Data Science  with its team of faculty members, offers program at the UG level.  <a href="academics/aids.html">Read More</a></p>
+              </div>  
+            </div> 
+          </div>
+          <!-- Bio-Medical Engineering -->
+          <div class="academic-item">
+            <div class="campaign">
+              <div class="thumb">
+                <img src="images/bme-lab.jpg" alt="Bio-Medical Engineering">
+                <div class="campaign-overlay"></div>
+              </div>
+              <div class="campaign-details p-20">
+                <h3 class="mt-0 mb-10">
+                  <a href="academics/bme.html">B.E Bio-Medical Engineering</a>
+                </h3>
+                <p class="mb-0">The Department offers cutting-edge program at UG level with state-of-the-art facilities. <a href="academics/bme.html">Read More</a></p>
+              </div>  
+            </div> 
+          </div>
+          
+          <!-- Civil Engineering -->
+          <div class="academic-item">
+            <div class="campaign">
+              <div class="thumb">
+                <img src="images/civil-dept.jpg" alt="Civil Engineering">
+                <div class="campaign-overlay"></div>
+              </div>
+              <div class="campaign-details p-20">
+                <h3 class="mt-0 mb-10">
+                  <a href="academics/civil.html">B.E Civil Engineering</a>
+                </h3>
+                <p class="mb-0">Offering comprehensive program with focus on modern construction techniques. <a href="academics/civil.html">Read More</a></p>
+              </div>  
+            </div> 
+          </div>
+          
+          <!-- Agricultural Engineering -->
+          <div class="academic-item">
+            <div class="campaign">
+              <div class="thumb">
+                <img src="images/agri-lab.jpg" alt="Agricultural Engineering">
+                <div class="campaign-overlay"></div>
+              </div>
+              <div class="campaign-details p-20">
+                <h3 class="mt-0 mb-10">
+                  <a href="academics/agri.html">B.Tech Agricultural Engineering</a>
+                </h3>
+                <p class="mb-0">Advanced program focusing on modern agricultural technologies. <a href="academics/agri.html">Read More</a></p>
+              </div>  
+            </div>
+          </div>
+
+          <!-- Computer Science Engineering -->
+          <div class="academic-item">
+            <div class="campaign">
+              <div class="thumb">
+                <img src="images/cse-lab.jpg" alt="Computer Science Engineering">
+                <div class="campaign-overlay"></div>
+              </div>
+              <div class="campaign-details p-20">
+                <h3 class="mt-0 mb-10">
+                  <a href="academics/cse.html">B.E Computer Science Engineering</a>
+                </h3>
+                <p class="mb-0">Cutting-edge program with focus on latest technologies. <a href="academics/cse.html">Read More</a></p>
+              </div>  
+            </div>
+          </div>
+
+          <!-- Mechanical Engineering -->
+          <div class="academic-item">
+            <div class="campaign">
+              <div class="thumb">
+                <img src="images/mech-lab.jpg" alt="Mechanical Engineering">
+                <div class="campaign-overlay"></div>
+              </div>
+              <div class="campaign-details p-20">
+                <h3 class="mt-0 mb-10">
+                  <a href="academics/mech.html">B.E Mechanical Engineering</a>
+                </h3>
+                <p class="mb-0">Comprehensive program with modern manufacturing facilities. <a href="academics/mech.html">Read More</a></p>
+              </div>  
+            </div>
+          </div>
+
+          <!-- CyberSecurity -->
+          <div class="academic-item">
+            <div class="campaign">
+              <div class="thumb">
+                <img src="images/cyber-lab.jpg" alt="CyberSecurity">
+                <div class="campaign-overlay"></div>
+              </div>
+              <div class="campaign-details p-20">
+                <h3 class="mt-0 mb-10">
+                  <a href="academics/cyber.html">B.E Cyber Security</a>
+                </h3>
+                <p class="mb-0"> The Department of  Cyber Security with its team of faculty members, offers program at the UG level.  <a href="academics/cyber.html">Read More</a></p>
+              </div>  
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="gallery-section" id="gallery">
+      <div class="container">
+        <div class="section-title text-center">
+          <h2>Gallery</h2>
+        </div>
+        <div class="gallery-slideshow">
+          <div class="gallery-container">
+            <div class="gallery-slide active">
+              <img src="images/gg1.jpg" alt="College Building">
+              <div class="gallery-caption">
+                <h3>College Building</h3>
+              </div>
+            </div>
+            <div class="gallery-slide">
+              <img src="images/gg2.jpg" alt="Electrical Laboratory">
+              <div class="gallery-caption">
+                <h3>Electrical Laboratory</h3>
+              </div>
+            </div>
+            <div class="gallery-slide">
+              <img src="images/gg3.jpg" alt="Laboratory">
+              <div class="gallery-caption">
+                <h3>Laboratory</h3>
+              </div>
+            </div>
+            <div class="gallery-slide">
+              <img src="images/gg4.jpg" alt="Physics Laboratory">
+              <div class="gallery-caption">
+                <h3>Physics Laboratory</h3>
+              </div>
+            </div>
+            <div class="gallery-slide">
+              <img src="images/gg5.jpg" alt="Chemical Laboratory">
+              <div class="gallery-caption">
+                <h3>Chemical Laboratory</h3>
+              </div>
+            </div>
+            <div class="gallery-slide">
+              <img src="images/gg6.jpg" alt="Laboratory">
+              <div class="gallery-caption">
+                <h3>Laboratory</h3>
+              </div>
+            </div>
+          </div>
+          <button class="gallery-btn prev"><i class="fas fa-chevron-left"></i></button>
+          <button class="gallery-btn next"><i class="fas fa-chevron-right"></i></button>
+          <div class="gallery-dots"></div>
+        </div>
+      </div>
+    </section>
+
+    <section id="infrastructure" class="infrastructure-section">
+      <div class="container">
+        <div class="section-title text-center">
+          <h2>Infrastructure</h2>
+          <p>With quality education Sri Ramakrishna Engineering College has<br>come forward to extend a lot of facilities to the students</p>
+        </div>
+        
+        <div class="infra-grid">
+          <!-- Row 1 -->
+          <div class="infra-item">
+            <div class="infra-card">
+              <div class="infra-image">
+                <img src="images/library.jpg" alt="Library">
+                <div class="overlay">
+                  <a href="images/library.jpg" class="zoom-btn" data-lightbox="infrastructure">
+                    <i class="fas fa-search-plus"></i>
+                  </a>
+                </div>
+              </div>
+              <div class="infra-content">
+                <h3>Library</h3>
+                <p>To promote a spirit of continuous learning among its students the Sri Ramakrishna College of Engineering assures peaceful and enriching hours in the library.</p>
+                <a href="infrastructure/library.html" class="read-more">Read More</a>
+              </div>
+            </div>
+          </div>
+
+          <div class="infra-item">
+            <div class="infra-card">
+              <div class="infra-image">
+                <img src="images/lab.jpg" alt="Laboratory">
+                <div class="overlay">
+                  <a href="images/lab.jpg" class="zoom-btn" data-lightbox="infrastructure">
+                    <i class="fas fa-search-plus"></i>
+                  </a>
+                </div>
+              </div>
+              <div class="infra-content">
+                <h3>Laboratory</h3>
+                <p>Sri Ramakrishna College of Engineering boasts of sophisticated and world class Lab Facilities that make the learning process thoroughly meaningful.</p>
+                <a href="infrastructure/laboratory.html" class="read-more">Read More</a>
+              </div>
+            </div>
+          </div>
+
+          <div class="infra-item">
+            <div class="infra-card">
+              <div class="infra-image">
+                <img src="images/hostel.jpg" alt="Hostel">
+                <div class="overlay">
+                  <a href="images/hostel.jpg" class="zoom-btn" data-lightbox="infrastructure">
+                    <i class="fas fa-search-plus"></i>
+                  </a>
+                </div>
+              </div>
+              <div class="infra-content">
+                <h3>Hostel</h3>
+                <p>In our institution separate hostels for boys and girls with good infrastructure are provided. The aesthetically designed modern hostels provide home atmosphere.</p>
+                <a href="infrastructure/hostel.html" class="read-more">Read More</a>
+              </div>
+            </div>
+          </div>
+
+          <!-- Row 2 -->
+          <div class="infra-item">
+            <div class="infra-card">
+              <div class="infra-image">
+                <img src="images/transport.jpg" alt="Transport">
+                <div class="overlay">
+                  <a href="infrastructure/transport.html" class="zoom-btn" data-lightbox="infrastructure">
+                    <i class="fas fa-search-plus"></i>
+                  </a>
+                </div>
+              </div>
+              <div class="infra-content">
+                <h3>Transport</h3>
+                <p>Sri Ramakrishna Educational Institution has more than 50 buses which are made available to the students and faculty members for commuting.</p>
+                <a href="infrastructure/transport.html" class="read-more">Read More</a>
+              </div>
+            </div>
+          </div>
+
+          <div class="infra-item">
+            <div class="infra-card">
+              <div class="infra-image">
+                <img src="images/sport.jpg" alt="Sports">
+                <div class="overlay">
+                  <a href="infrastructure/sports.html" class="zoom-btn" data-lightbox="infrastructure">
+                    <i class="fas fa-search-plus"></i>
+                  </a>
+                </div>
+              </div>
+              <div class="infra-content">
+                <h3>Sports</h3>
+                <p>SRCE has excellent recreational facilities for sports including basketball court, volleyball court and a spacious ground for sports activities.</p>
+                <a href="infrastructure/sports.html" class="read-more">Read More</a>
+              </div>
+            </div>
+          </div>
+
+          <div class="infra-item">
+            <div class="infra-card">
+              <div class="infra-image">
+                <img src="images/audit.jpg" alt="Auditorium">
+                <div class="overlay">
+                  <a href="infrastructure/auditorium.html" class="zoom-btn" data-lightbox="infrastructure">
+                    <i class="fas fa-search-plus"></i>
+                  </a>
+                </div>
+              </div>
+              <div class="infra-content">
+                <h3>Auditorium</h3>
+                <p>Sri Ramakrishna College of Engineering has a well-equipped auditorium with a seating capacity of over 1500 people. The auditorium is spacious and well ventilated.</p>
+                <a href="infrastructure/auditorium.html" class="read-more">Read More</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="placements" class="placements-section">
+      <div class="container">
+        <div class="section-title text-center">
+          <h2>Placement Recruiters</h2>
+        </div>
+        <div class="recruiters-slider owl-carousel">
+          <div class="item">
+            <img src="images/cc1.jpg" alt="Company 1">
+          </div>
+          <div class="item">
+            <img src="images/cc2.jpg" alt="Company 2">
+          </div>
+          <div class="item">
+            <img src="images/cc3.jpg" alt="Company 3">
+          </div>
+          <div class="item">
+            <img src="images/cc4.jpg" alt="Company 4">
+          </div>
+          <div class="item">
+            <img src="images/cc5.jpg" alt="Company 5">
+          </div>
+          <div class="item">
+            <img src="images/cc6.jpg" alt="Company 6">
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer bg-black-111" id="contact-section">
+    <div class="container pt-30 pb-0">
+      <div class="footer-grid">
+        <div class="footer-section">
+          <div class="widget dark">
+            <h3 class="widget-title">Contact Us</h3>
+            <ul class="contact-list">
+              <li>
+                <i class="fas fa-map-marker-alt"></i>
+                <span>
+                  Sri Saradha Nagar,<br>
+                  Perambalur - 621 113.
+                </span>
+              </li>
+              <li>
+                <i class="fas fa-phone"></i>
+                <a href="tel:+919585544688">+91 95855 44688</a>
+              </li>
+              <li>
+                <i class="fas fa-envelope"></i>
+                <a href="mailto:admin@sriramakrishna.ac.in">admin@sriramakrishna.ac.in</a>
+              </li>
+              <li>
+                <i class="fas fa-globe"></i>
+                <a href="https://www.sriramakrishna.ac.in">www.sriramakrishna.ac.in</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="footer-section">
+          <div class="widget dark">
+            <h3 class="widget-title">Quick Links</h3>
+            <ul class="quick-links">
+              <li><a href="anti-ragging.html">Anti Ragging Committee</a></li>
+              <li><a href="internal-complaints-committee.html">Internal Complaints Committee</a></li>
+              <li><a href="grievance-redressal.html">Grievance & Redressal Committee</a></li>
+              <li><a href="iqac.html">IQAC</a></li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="footer-section">
+          <div class="widget dark">
+            <h3 class="widget-title">WhatsApp Enquiry</h3>
+            <div class="whatsapp-links">
+              <a href="https://api.whatsapp.com/send?phone=9585544688" class="whatsapp-btn admission">
+                <i class="fab fa-whatsapp"></i>
+                Admission Enquiry 1
+              </a>
+              <a href="https://api.whatsapp.com/send?phone=9787393794" class="whatsapp-btn admission">
+                <i class="fab fa-whatsapp"></i>
+                Admission Enquiry 2
+              </a>
+              <a href="https://api.whatsapp.com/send?phone=9585544687" class="whatsapp-btn general">
+                <i class="fab fa-whatsapp"></i>
+                General Enquiry
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="footer-bottom">
+      <div class="container">
+        <div class="footer-bottom-content">
+          <p class="copyright">
+            2024. All Rights Reserved | Designed By | 
+            <a href="http://instagram.com/letchu_pkt" target="_blank">
+              <span class="designer-name">laksmikanthan BTech</span>
+            </a>
+          </p>
+          <div class="social-links">
+            <a href="https://www.facebook.com/letchupkt"><i class="fab fa-facebook"></i></a>
+            <a href="https://www.linkedin.com/in/lakshmikanthank/"><i class="fab fa-linkedin"></i></a>
+            <a href="https://www.instagram.com/letchu_pkt/"><i class="fab fa-instagram"></i></a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Update the error handling -->
+  <script>
+    window.onerror = function(msg, url, lineNo, columnNo, error) {
+      console.error({
+        message: msg,
+        url: url,
+        lineNumber: lineNo,
+        columnNumber: columnNo,
+        error: error
+      });
+      return false;
+    };
+  </script>
+  
+  <!-- Add these scripts in this order before closing body tag -->
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.11.3/js/lightbox.min.js"></script>
+  <script>
+    // Initialize lightbox after DOM is loaded
+    document.addEventListener('DOMContentLoaded', function() {
+      lightbox.option({
+        'resizeDuration': 200,
+        'wrapAround': true
+      });
+    });
+  </script>
+  <script src="./js/main.js"></script>
+</body>
+</html>
